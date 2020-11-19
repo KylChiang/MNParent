@@ -43,10 +43,10 @@
 		607FACE51AFB9204008FA782 /* MNParent_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MNParent_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		776126400B5365605491CB19 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		776126400B5365605491CB19 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		98D54D7AB0A7301EF9EC9DCD /* Pods_MNParent_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MNParent_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D404C1D18FA7B09FD96886D9 /* MNParent.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MNParent.podspec; path = ../MNParent.podspec; sourceTree = "<group>"; };
-		FA3C5B41F338BBDBF3B2B4E7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D404C1D18FA7B09FD96886D9 /* MNParent.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MNParent.podspec; path = ../MNParent.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FA3C5B41F338BBDBF3B2B4E7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +147,6 @@
 				3E45979E5DEF0EC47B079FDF /* Pods-MNParent_Tests.debug.xcconfig */,
 				0413586C3CC5A84247C79C4A /* Pods-MNParent_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

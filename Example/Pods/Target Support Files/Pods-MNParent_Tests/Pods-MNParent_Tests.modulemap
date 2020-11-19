@@ -1,0 +1,6 @@
+framework module Pods_MNParent_Tests {
+  umbrella header "Pods-MNParent_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

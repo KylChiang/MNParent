@@ -1,0 +1,22 @@
+{
+  "name": "MNParent",
+  "version": "0.1.0",
+  "summary": "A short description of MNParent.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Kylie/MNParent",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Kylie": "kylie.chiang@ecpay.com.tw"
+  },
+  "source": {
+    "git": "https://github.com/Kylie/MNParent.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MNParent/Classes/**/*"
+}
